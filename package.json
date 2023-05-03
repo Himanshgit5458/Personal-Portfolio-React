@@ -1,7 +1,7 @@
 {
   "name": "portofolio",
   "version": "0.1.0",
-  "homepage": "https://Himanshgit5458.github.io/personal-portfolio",
+  "homepage": "https://himanshgit5458.github.io/Personal-Portfolio-React/",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.4.0",
