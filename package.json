@@ -1,6 +1,7 @@
 {
   "name": "portofolio",
   "version": "0.1.0",
+  "homepage": "https://Himanshgit5458.github.io/personal-portfolio",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.4.0",
@@ -13,10 +14,12 @@
     "react-dom": "^17.0.2",
     "react-scripts": "5.0.0",
     "react-scroll": "^1.8.6",
-    "swiper": "^8.0.7",
+    "swiper": "^8.0.7", 
     "web-vitals": "^2.1.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -39,5 +42,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
