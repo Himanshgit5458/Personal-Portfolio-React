@@ -27,9 +27,17 @@ const Services = () => {
         <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
         <span>services</span>
         <spane>
-          Lorem ispum is simpley dummy text of printing of printing Lorem
+          As a data scientist and software engineer, I have developed a broad range of technical skills across various domains.
           <br />
-          ispum is simpley dummy text of printing
+          I specialize in building predictive models, analyzing complex data sets, and developing software solutions that meet
+          <br />
+          business needs. My expertise includes data preprocessing, statistical analysis, machine learning algorithms, time series
+          <br />
+          analysis, and natural language processing. I am well-versed in using a variety of tools and programming languages such 
+          <br />
+          as Python,C, C++, SQL, Git, and MS Office. With a strong foundation in data structures and algorithms, problem-solving,
+          <br />
+          and Data Base Management system, I bring a unique perspective to each project and deliver solutions that drive business value.
         </spane>
         <a href={Resume} download>
           <button className="button s-button">Download CV</button>
@@ -46,8 +54,8 @@ const Services = () => {
         >
           <Card
             emoji={HeartEmoji}
-            heading={"Design"}
-            detail={"Figma, Sketch, Photoshop, Adobe Illustrator, Adobe xd"}
+            heading={"Developer"}
+            detail={"Web Scraping, Data Structures, Algorithms, AWS, C,C++, Python, SQL"}
           />
         </motion.div>
         {/* second card */}
@@ -58,8 +66,8 @@ const Services = () => {
         >
           <Card
             emoji={Glasses}
-            heading={"Developer"}
-            detail={"Predictive Analysis, Web Scraping, ANN, NLP, Machine Learning algorithms, Time Series Analysis, Statistics, AWS,  Data Structures"}
+            heading={"Analyst"}
+            detail={"Predictive Analysis, ANN, NLP, Machine Learning algorithms, Time Series Analysis, Probability, Statistics"}
           />
         </motion.div>
         {/* 3rd */}
@@ -70,9 +78,9 @@ const Services = () => {
         >
           <Card
             emoji={Humble}
-            heading={"UI/UX"}
+            heading={"Tools"}
             detail={
-              "Lorem ispum dummy text are usually use in section where we need some random text"
+              "Microsoft Office, MYSQL, Power BI, Git, Fusion, AUTOCAD, Flask, Postman"
             }
             color="rgba(252, 166, 31, 0.45)"
           />

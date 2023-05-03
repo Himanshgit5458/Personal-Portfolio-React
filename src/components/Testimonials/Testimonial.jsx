@@ -5,32 +5,22 @@ import "swiper/css";
 
 import { Pagination } from "swiper";
 import "swiper/css/pagination";
-import profilePic1 from "../../img/profile1.jpg";
-import profilePic2 from "../../img/profile2.jpg";
-import profilePic3 from "../../img/profile3.jpg";
-import profilePic4 from "../../img/profile4.jpg";
+import profilePic1 from "../../img/sakti.jpg";
+import profilePic2 from "../../img/bijendra.jpg";
+import profilePic3 from "../../img/bijendra.jpg";
+import profilePic4 from "../../img/bijendra.jpg";
 
 const Testimonial = () => {
   const clients = [
     {
       img: profilePic1,
       review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
-    },
-    {
-      img: profilePic2,
-      review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
-    },
-    {
-      img: profilePic3,
-      review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+        "During Himanshu's internship at Fego.ai, he displayed strong analytical skills and a deep understanding of fintech companies. His professionalism, dedication, and expertise made him an invaluable member of our team.",
     },
     {
       img: profilePic4,
       review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+        "As Himanshu's manager during their internship at Dream up India, I was consistently impressed with their exceptional data science skills and passion for problem-solving. Their ability to work both independently and as part of a team made a valuable contribution to our projects.",
     },
   ];
 

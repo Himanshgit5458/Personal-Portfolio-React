@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import "./Works.css";
 import Upwork from "../../img/jee.png";
-import Fiverr from "../../img/iit madras.png";
+import Fiverr from "../../img/IIT_Madras_Logo.svg.png";
 import Amazon from "../../img/fego.png";
 import Shopify from "../../img/dream.png";
 import Facebook from "../../img/studdicted (1).png";
@@ -25,14 +25,16 @@ const Works = () => {
           </span>
           <span>Brands & Clients</span>
           <spane>
-            Lorem ispum is simpley dummy text of printing of printing Lorem
-            <br />
-            ispum is simpley dummy text of printingLorem ispum is simpley dummy
-            text
-            <br />
-            y dummy text of printingLorem
-            <br />
-            ispum is simpley dummy text of printing
+          During my internships, I gained practical experience across multiple domains and contributed to various projects.At Fego.ai, I was responsible for
+          <br />
+          analyzing fintech companies and building mathematical models to help stakeholders track personal finance. With Dream Up India, I developed an 
+          <br />
+          interactive Power BI dashboard and a predictive model to forecast election winners by analyzing trends at the booth level. I also used AWS Textract  
+          <br />
+          API to extract data from PDFs. At StuddicTed, I collaborated with a fast-paced startup to develop a python application that provided holistic suggestions 
+          <br />
+          for performance improvement based on student's prior performance, significantly reducing report generation time. These internships helped me to hone my  
+          technical and problem-solving skills in a practical setting, providing me with valuable experience that I can apply to future projects.
           </spane>
           <Link to="contact" smooth={true} spy={true}>
             <button className="button s-button">Hire Me</button>

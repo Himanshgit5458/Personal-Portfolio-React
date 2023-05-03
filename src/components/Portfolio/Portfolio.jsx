@@ -7,9 +7,12 @@ import Ecommerce from "../../img/ecommerce.png";
 import HOC from "../../img/hoc.png";
 import MusicApp from "../../img/musicapp.png";
 import { themeContext } from "../../Context";
+
 const Portfolio = () => {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
+  const githubURL = "https://github.com/your-username/your-repo-name";
+
   return (
     <div className="portfolio" id="portfolio">
       {/* heading */}
@@ -24,16 +27,24 @@ const Portfolio = () => {
         className="portfolio-slider"
       >
         <SwiperSlide>
-          <img src={Sidebar} alt="" />
+          <a href={githubURL} target="_blank" rel="noopener noreferrer">
+            <img src={Sidebar} alt="" />
+          </a>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={Ecommerce} alt="" />
+          <a href={githubURL} target="_blank" rel="noopener noreferrer">
+            <img src={Ecommerce} alt="" />
+          </a>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={MusicApp} alt="" />
+          <a href={githubURL} target="_blank" rel="noopener noreferrer">
+            <img src={MusicApp} alt="" />
+          </a>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={HOC} alt="" />
+          <a href={githubURL} target="_blank" rel="noopener noreferrer">
+            <img src={HOC} alt="" />
+          </a>
         </SwiperSlide>
       </Swiper>
     </div>
