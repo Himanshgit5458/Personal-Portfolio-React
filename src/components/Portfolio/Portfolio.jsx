@@ -2,10 +2,10 @@ import React, { useContext } from "react";
 import "./Portfolio.css";
 import { Swiper, SwiperSlide } from "swiper/react"
 import "swiper/css";
-import Sidebar from "../../img/sidebar.png";
-import Ecommerce from "../../img/ecommerce.png";
-import HOC from "../../img/hoc.png";
-import MusicApp from "../../img/musicapp.png";
+import Sidebar from "../../img/stock.jpg";
+import Ecommerce from "../../img/language.png";
+import HOC from "../../img/risk.png";
+import MusicApp from "../../img/Harvesify.png";
 import { themeContext } from "../../Context";
 
 const Portfolio = () => {
@@ -27,22 +27,22 @@ const Portfolio = () => {
         className="portfolio-slider"
       >
         <SwiperSlide>
-          <a href={githubURL} target="_blank" rel="noopener noreferrer">
+          <a href={"https://github.com/Himanshgit5458/Stock-price-prediction-using-NLP"} target="_blank" rel="noopener noreferrer">
             <img src={Sidebar} alt="" />
           </a>
         </SwiperSlide>
         <SwiperSlide>
-          <a href={githubURL} target="_blank" rel="noopener noreferrer">
+          <a href={"https://github.com/Himanshgit5458/English2French"} target="_blank" rel="noopener noreferrer">
             <img src={Ecommerce} alt="" />
           </a>
         </SwiperSlide>
         <SwiperSlide>
-          <a href={githubURL} target="_blank" rel="noopener noreferrer">
+          <a href={"https://github.com/Himanshgit5458/Harvesify"} target="_blank" rel="noopener noreferrer">
             <img src={MusicApp} alt="" />
           </a>
         </SwiperSlide>
         <SwiperSlide>
-          <a href={githubURL} target="_blank" rel="noopener noreferrer">
+          <a href={"https://github.com/Himanshgit5458/Credit-card-risk-Analysis-"} target="_blank" rel="noopener noreferrer">
             <img src={HOC} alt="" />
           </a>
         </SwiperSlide>

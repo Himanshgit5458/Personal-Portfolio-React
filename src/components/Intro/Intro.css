@@ -59,8 +59,8 @@
 }
 .i-right > :nth-child(1) {
   transform: scale(0.69);
-  left: -15%;
-  top: -9%;
+  left: 15%;
+  top: -15%;
 }
 .i-right > :nth-child(2) {
   top: -4.6rem;
@@ -68,8 +68,12 @@
   left: -3rem;
 }
 .i-right > :nth-child(3) {
-  transform: scale(1.4);
-  left: 28%;
+  width: 600;
+  height: 600px;
+  object-fit: cover;
+  border-radius: 10%;
+  top: 10%;
+  left: 25%;
 }
 .i-right > :nth-child(4) {
   transform: scale(0.62);
